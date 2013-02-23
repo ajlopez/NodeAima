@@ -1,0 +1,16 @@
+{ "name": "nodeaima"
+, "description": "JavaScript/Node.js implementation of algorithms from Russell and Norvig's 'Artificial Intelligence: A Modern Approach'."
+, "keywords": [ "javascript", "ai", "artificialintelligence" ]
+, "version": "0.0.1alpha"
+, "author": "Angel 'Java' Lopez <webmaster@ajlopez.com> (http://www.ajlopez.com)"
+, "repository": { "type": "git", "url": "git://github.com/ajlopez/NodeAima.git" }
+, "main": "./lib/nodeaima.js"
+, "engines": { "node": ">= 0.6.0 && < 0.9.0" }
+, "scripts": {
+    "test": "node ./test.js"
+  }
+, "dependencies": {
+  }
+, "devDependencies": {
+  }
+}
