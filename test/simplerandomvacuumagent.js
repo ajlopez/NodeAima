@@ -4,12 +4,11 @@ var assert = require('assert');
 
 assert.ok(agents);
 
-var agent = agents.createRandomVacuumAgent();
-var actions = agents.VacuumAction;
+var agent = agents.createSimpleRandomVacuumAgent();
+var actions = agents.SimpleVacuumAction;
 
 var result = agent.program({});
 
-assert.ok(result);
 assert.ok(result === actions.NoOp || result === actions.Suck || result === actions.Left || result == actions.Right);
 
 var results = [];
